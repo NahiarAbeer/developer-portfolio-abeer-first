@@ -1,4 +1,86 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    background-image: url ('top-banner.png');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0%;
+
+}
+.top {
+  background-image: url('images/top-banner.png');
+  background-repeat: no-repeat;
+  display: flex;
+
+}
+.mid {
+  display: flex;
+  background-image: url('images/dream-bg.png');
+  height: 460px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.down {
+  display: flex;
+  background-image: url('images/exp-bg.png');
+  
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.txt1 {
+  width: 55%;
+  padding: 2% 5%;
+}
+a {
+  text-decoration: none;
+}
+.bttn1 {
+  padding: 7px 35px;
+  background-image: linear-gradient( 30deg,
+  rgb(255,111,81),rgb(255,152,115));
+  color: white;
+  border-radius: 5px;
+  font-weight: 900;
+}
+.txt2 {
+  width: 55%;
+  padding: 5% 2%;
+}
+.pic1 {
+  width: 45%;
+  padding-left: 9%;
+  padding-right: 7%;
+}
+.pic2 {
+  width: 45%;
+  padding-left: 7%;
+  padding-right: 9%;
+}
+.left{
+  width: 50%;
+  padding: 20px;
+  text-align: justify;
+  border-left: 4px solid rgb(255,152,115) ;
+  margin-left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 1.5%;
+}
+.right{
+  width: 50%;
+  padding: 20px;
+  text-align: justify;
+   border-left: 4px solid #0000ff;
+  margin-left: 1.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 3%;
+}
+.hero {
+  color: rgb(255,185,56);
+}
+.sbhd {
+  font-weight: 700;
+}
+.cont {
+  color: grey;
+}
+.down_head{
+   color: rgb(255,185,56);
+   font-weight: 700;
 }
